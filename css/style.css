@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+/**todos los estilos del header**/
+header{
+    background-color: rgb(133, 175, 133);
+    height: 60px;
+}
+
+.nav-bar{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    list-style: none;
+    display: flex;
+    flex-direction:row-rowreverse;
+    justify-content:space-evenly;
+    margin-left:45%;  
+}
+
+.nav-bar li a{
+    text-decoration: none;
+    color: rgb(18, 124, 50);   
+    
+}
+
+.nav-bar li a:hover{
+    color: black;
+}
+
+/**todos los estilos del main**/
+
+.banner-index{
+    background-image: url(../assets/img/planta.jpg);
+    background-repeat: no-repeat;
+    background-position-y:center center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 530px;
+
+}
+.banner-index h1{
+    color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 50px;
+    
+}
+.banner-index h4{
+    color: rgb(13, 71, 13);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 400px;
+    margin-left: 50px;
+}
+
+
+
+/**todos los estilos del footer**/
+footer{
+    background-color: rgb(133, 175, 133);
+    display: flex;
+    align-items: center;
+    height: 59px;
+}
+.footer-text-index{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 50%;
+    
+}
