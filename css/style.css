@@ -54,7 +54,8 @@ header {
 
 .nav-bar li a {
     text-decoration: none;
-    color: rgb(66, 116, 51)
+    color: rgb(35, 56, 29);
+    text-shadow: 0 0 1em rgb(9, 10, 7);
 }
 
 .nav-bar li a:hover {
@@ -83,8 +84,8 @@ main {
 .container h1 {
     padding-right: 15px;
     color: rgb(17, 19, 17);
-    text-shadow: 0 0 1em rgb(75, 97, 41), 0 0 0.2em rgb(75, 97, 41);
-    
+    font-size: 40px;
+    margin-top: 20px;
 }
 
 .parrafo p{
@@ -107,9 +108,42 @@ main {
 }
 
 .boton button a{
-    color: rgb(66, 116, 51);
+    color: rgb(35, 56, 29);
     text-decoration: none;
+}
+/**------------MAIN NOSOTROS------------**/
+.nosotros-main{
+    background-image: url(../assets/img/ll.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+   
+}
+.banner-index h1{
+    margin-right: 700px;
+    font-size: 40px;
+    margin-top: 30px;
     
+}
+.articulo-1 {
+    margin: 30px;
+    margin-right: 250px;
+    
+}
+.articulo-1 h2 {
+    margin-right: 170px;
+}
+.articulo-2{
+    margin:-50px;
+    margin-left: 500px;
+    
+}
+.articulo-2 h3{
+    margin-left: 200px;
 }
 
 
@@ -131,7 +165,7 @@ footer {
 
 .footer-text h5{
     font-size: medium;
-    color: rgb(66, 116, 51)
+    color: rgb(35, 56, 29)
 }
 
 .footer-img a{  
@@ -190,12 +224,40 @@ footer {
         align-items: center;
         flex-direction: column;
     }
-
-}
-
+    .nosotros-main{
+        background-image: url(../assets/img/ll.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position:fixed;
+        min-height: 100vh;
+        display: flex;
+       
+    }
+    .banner-index h1{
+        margin-right: 700px;
+        font-size: 35px;
+        margin-left: 30px;
+        
+    }
+    .articulo-1 {
+        font-size: 15px;
+        
+    }
+    .articulo-1 h2 {
+        margin-right: 140px;
+        width: 15px;
+        font-size: small;
+        padding-left: 20px;
+    }
+    .articulo-1 p{
+        font-size: 10px;
+    }
+    
 
 /**------------mobile------------**/
 @media (max-width: 576px) {
+
     header {
         background-image: linear-gradient(rgb(255, 255, 255), rgb(75, 97, 41));
         justify-content: center;
@@ -230,18 +292,21 @@ footer {
         gap: 20px;
         position: fixed;
     }
+    
     .container h1{
         padding-right: 300px;
+        font-size: medium;
     }
     .parrafo p{
         padding-right: 210px;
         padding: 10px;
         margin:20px;
-        font-size: medium;
+        font-size: small;
         width: 300px;
     }
     .boton button{
         margin: 10px;
+        font-size: small;
     }
     footer { 
         height: 80px;
